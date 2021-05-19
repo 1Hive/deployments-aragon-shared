@@ -16,6 +16,7 @@
     "hardhat",
     "solidity"
   ],
+  "files": ["artifacts", "contracts", "deploy", "deployments"],
   "resolutions": {
     "websocket": "1.0.32"
   },
