@@ -1,5 +1,5 @@
 {
-  "name": "template-ethereum-contracts",
+  "name": "@1hive/deployments-aragon-shared",
   "version": "1.0.0",
   "description": "Template to develop ethereum smart contracts",
   "engines": {
