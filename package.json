@@ -1,6 +1,6 @@
 {
   "name": "template-ethereum-contracts",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Template to develop ethereum smart contracts",
   "engines": {
     "node": ">= 12.18.0"
