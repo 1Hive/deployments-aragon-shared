@@ -16,19 +16,25 @@
     "hardhat",
     "solidity"
   ],
-  "files": ["artifacts", "contracts", "deploy", "deployments"],
+  "files": [
+    "/artifacts/contracts/**/*.json",
+    "!/artifacts/contracts/**/*.dbg.json",
+    "contracts",
+    "deploy",
+    "deployments"
+  ],
   "resolutions": {
     "websocket": "1.0.32"
   },
   "devDependencies": {
-    "@1hive/deployments-aragon-os": "^1.0.0",
+    "@1hive/deployments-aragon-os": "^1.0.1",
+    "@1hive/minime": "^1.0.0",
     "@aragon/apps-agent": "^2.1.0",
     "@aragon/apps-finance": "^3.0.0",
     "@aragon/apps-payroll": "^1.0.0",
-    "@aragon/apps-shared-minime": "^1.0.2",
-    "@aragon/apps-token-manager": "^2.1.0",
+    "@1hive/token-manager": "^2.2.0",
     "@aragon/apps-vault": "^4.1.0",
-    "@aragon/apps-voting": "^2.1.0",
+    "@1hive/apps-voting": "^2.2.0",
     "@aragon/id": "^2.1.1",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
     "@openzeppelin/contracts": "^3.4.1",

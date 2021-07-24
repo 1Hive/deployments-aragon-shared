@@ -74,6 +74,10 @@ const config: HardhatUserConfig = {
       url: node_url('polygon'),
       accounts: accounts('polygon'),
     },
+    arbtest: {
+      url: node_url('arbtest'),
+      accounts: accounts('arbtest'),
+    },
     frame: {
       url: 'http://localhost:1248',
       httpHeaders: {origin: 'hardhat'},
@@ -105,13 +109,15 @@ const config: HardhatUserConfig = {
     : {
         contracts: [
           {
-            artifacts:
-              'node_modules/@aragon/apps-shared-minime/build/contracts',
+            artifacts: 'node_modules/@1hive/minime/artifacts',
           },
         ],
         deployments: {
           polygon: [
             'node_modules/@1hive/deployments-aragon-os/deployments/polygon',
+          ],
+          arbtest: [
+            'node_modules/@1hive/deployments-aragon-os/deployments/arbtest',
           ],
         },
       },
