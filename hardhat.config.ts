@@ -70,6 +70,10 @@ const config: HardhatUserConfig = {
       url: node_url('goerli'),
       accounts: accounts('goerli'),
     },
+    xdai: {
+      url: node_url('xdai'),
+      accounts: accounts('xdai'),
+    },
     polygon: {
       url: node_url('polygon'),
       accounts: accounts('polygon'),
