@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@1hive/minime/contracts/MiniMeToken.sol";
 
 contract TokenCache {
     string private constant ERROR_MISSING_TOKEN_CACHE = "TEMPLATE_MISSING_TOKEN_CACHE";

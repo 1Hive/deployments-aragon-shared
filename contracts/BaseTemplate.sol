@@ -1,12 +1,12 @@
 pragma solidity 0.4.24;
 
+import "@1hive/minime/contracts/MiniMeToken.sol";
 import "@aragon/apps-agent/contracts/Agent.sol";
 import "@aragon/apps-vault/contracts/Vault.sol";
-import "@aragon/apps-voting/contracts/Voting.sol";
+import "@1hive/apps-voting/contracts/Voting.sol";
 import "@aragon/apps-payroll/contracts/Payroll.sol";
 import "@aragon/apps-finance/contracts/Finance.sol";
-import "@aragon/apps-token-manager/contracts/TokenManager.sol";
-import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@1hive/token-manager/contracts/TokenManager.sol";
 
 import "@aragon/os/contracts/acl/ACL.sol";
 import "@aragon/os/contracts/apm/Repo.sol";
