@@ -27,7 +27,7 @@
     "websocket": "1.0.32"
   },
   "devDependencies": {
-    "@1hive/deployments-aragon-os": "^1.0.1",
+    "@1hive/deployments-aragon-os": "^1.1.0",
     "@1hive/minime": "^1.0.0",
     "@aragon/apps-agent": "^2.1.0",
     "@aragon/apps-finance": "^3.0.0",

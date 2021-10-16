@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@1hive/deployments-aragon-os@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@1hive/deployments-aragon-os/-/deployments-aragon-os-1.1.0.tgz#f7032f3877ffbbfd7bfb27d8c7e107ccb0397aa5"
+  integrity sha512-AEp/N4yxFyR2h1gAGhtMCpvjWm0KfQ92Wr5R8EOF5t27QgW53ihcjUKGfRD/H4p+ss795JgPusH/eXbYFIEILg==
 "@1hive/apps-voting@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@1hive/apps-voting/-/apps-voting-2.2.0.tgz#fcb28f1a5aeb9b283c30956c25de857d2b49259b"

@@ -78,6 +78,10 @@ const config: HardhatUserConfig = {
       url: node_url('polygon'),
       accounts: accounts('polygon'),
     },
+    mumbai: {
+      url: node_url('mumbai'),
+      accounts: accounts('mumbai'),
+    },
     arbtest: {
       url: node_url('arbtest'),
       accounts: accounts('arbtest'),
@@ -85,6 +89,8 @@ const config: HardhatUserConfig = {
     frame: {
       url: 'http://localhost:1248',
       httpHeaders: {origin: 'hardhat'},
+      timeout: 0,
+      gas: 0,
     },
   },
   gasReporter: {
@@ -119,6 +125,9 @@ const config: HardhatUserConfig = {
         deployments: {
           polygon: [
             'node_modules/@1hive/deployments-aragon-os/deployments/polygon',
+          ],
+          mumbai: [
+            'node_modules/@1hive/deployments-aragon-os/deployments/mumbai',
           ],
           arbtest: [
             'node_modules/@1hive/deployments-aragon-os/deployments/arbtest',
