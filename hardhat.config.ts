@@ -82,6 +82,10 @@ const config: HardhatUserConfig = {
       url: node_url('mumbai'),
       accounts: accounts('mumbai'),
     },
+    arbtest: {
+      url: node_url('arbtest'),
+      accounts: accounts('arbtest'),
+    },
     frame: {
       url: 'http://localhost:1248',
       httpHeaders: {origin: 'hardhat'},
@@ -115,8 +119,7 @@ const config: HardhatUserConfig = {
     : {
         contracts: [
           {
-            artifacts:
-              'node_modules/@aragon/apps-shared-minime/build/contracts',
+            artifacts: 'node_modules/@1hive/minime/artifacts',
           },
         ],
         deployments: {
@@ -125,6 +128,9 @@ const config: HardhatUserConfig = {
           ],
           mumbai: [
             'node_modules/@1hive/deployments-aragon-os/deployments/mumbai',
+          ],
+          arbtest: [
+            'node_modules/@1hive/deployments-aragon-os/deployments/arbtest',
           ],
         },
       },
