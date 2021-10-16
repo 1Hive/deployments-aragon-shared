@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@1hive/deployments-aragon-os@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@1hive/deployments-aragon-os/-/deployments-aragon-os-1.0.0.tgz#14ed7651570c975d6d90b2a333b713713de6dae4"
-  integrity sha512-h+zXrpLPjlF1sS8lO/u4TZEGSfkCEKtG0WJhmqVJJNurbdaIm4ahNw/GTQa8IdLqCFGi5JelqS/p0RdaSZLM/w==
+"@1hive/deployments-aragon-os@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@1hive/deployments-aragon-os/-/deployments-aragon-os-1.1.0.tgz#f7032f3877ffbbfd7bfb27d8c7e107ccb0397aa5"
+  integrity sha512-AEp/N4yxFyR2h1gAGhtMCpvjWm0KfQ92Wr5R8EOF5t27QgW53ihcjUKGfRD/H4p+ss795JgPusH/eXbYFIEILg==
 
 "@aragon/apps-agent@^2.1.0":
   version "2.1.0"

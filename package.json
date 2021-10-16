@@ -16,12 +16,17 @@
     "hardhat",
     "solidity"
   ],
-  "files": ["artifacts", "contracts", "deploy", "deployments"],
+  "files": [
+    "artifacts",
+    "contracts",
+    "deploy",
+    "deployments"
+  ],
   "resolutions": {
     "websocket": "1.0.32"
   },
   "devDependencies": {
-    "@1hive/deployments-aragon-os": "^1.0.0",
+    "@1hive/deployments-aragon-os": "^1.1.0",
     "@aragon/apps-agent": "^2.1.0",
     "@aragon/apps-finance": "^3.0.0",
     "@aragon/apps-payroll": "^1.0.0",
